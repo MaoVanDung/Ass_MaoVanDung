@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="42sp"
+        android:textColor="#818BC6"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="85dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donnec facilisi tortor ut augue lacinia, at viverra est semper. Sed sapion"
+        android:textSize="13sp"
+        android:textColor="#818BC6"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="70dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgUsername"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:src="@drawable/at">
+
+        </ImageView>
+
+
+        <EditText
+            android:id="@+id/editUsername"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:hint="username"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="#C4C8E3"
+            android:layout_marginRight="40dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPassword"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/key">
+
+        </ImageView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="20dp"
+            android:textColorHint="#C4C8E3"
+            android:inputType="textPassword"
+            android:layout_marginRight="40dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdoButton"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Remember Me"
+            android:textSize="12sp"
+            android:textColor="#818BC6"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="35dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="forgot password?"
+            android:textSize="12sp"
+            android:textColor="#818BC6"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@+id/rdoButton"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/drawable_button"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Don't have an account?"
+            android:textSize="12sp"
+            android:textColor="#818BC6"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#818BC6"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="13dp"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="here"
+        android:textSize="12sp"
+        android:textColor="#818BC6"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/tvSignup"/>
+    </RelativeLayout>
+
+</LinearLayout>
